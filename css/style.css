@@ -1,0 +1,86 @@
+@import url("fonts.css");
+@import url("normalize.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "GothicA1";
+}
+
+.program-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 16px 16px;
+    background-color: #46495C;
+}
+
+.program-form__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 728px;
+    padding: 64px 16px;
+    border-radius: 18px;
+    background-color:#ffffff;
+}
+
+.program-form__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+}
+
+.program-form__wrapper {
+    display: grid;
+    gap: 24px;
+    width: 100%;
+}
+
+.program-form__title {
+    display: block;
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: #46495C;
+}
+
+.program-form__description {
+    display: grid;
+    align-items: end;
+    gap: 6px;
+}
+
+.program-form__info {
+    display: block;
+    font-family: "GothicA1";
+    font-size: 16px;
+    font-weight: 400;
+    color: #001C3D8F;
+}
+
+.program-form__text {
+    border: 1px solid #C9CCDD;
+    border-radius: 8px;
+    height: 64px;
+}
+
+.program-form__button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    height: 72px;
+    background-color: #FF5721;
+    color: #ffffff;
+    padding: 20px 48px;
+    border: none;
+    border-radius: 14px;
+}
